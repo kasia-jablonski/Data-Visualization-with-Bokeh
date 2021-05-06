@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.1.min.js" integrity="sha384-YF85VygJKMVnHE+lLv2AM93Vbstr0yo2TbIu5v8se5Rq3UQAUmcuh4aaJwNlpKwa" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="a96f4fd6-d522-467b-a3a1-10fd60487f34" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1149">
+          {"602f444b-efb7-42cc-a001-14ce46355949":{"defs":[],"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"value":15},"x":{"field":"Population"},"y":{"field":"Life_expectancy"}},"id":"1036","type":"Circle"},{"attributes":{},"id":"1013","type":"BasicTicker"},{"attributes":{},"id":"1040","type":"Title"},{"attributes":{"data_source":{"id":"1002"},"glyph":{"id":"1035"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1036"},"view":{"id":"1038"}},"id":"1037","type":"GlyphRenderer"},{"attributes":{},"id":"1024","type":"ResetTool"},{"attributes":{"axis":{"id":"1016"},"dimension":1,"ticker":null},"id":"1019","type":"Grid"},{"attributes":{},"id":"1042","type":"BasicTickFormatter"},{"attributes":{},"id":"1020","type":"PanTool"},{"attributes":{"below":[{"id":"1012"}],"center":[{"id":"1015"},{"id":"1019"}],"left":[{"id":"1016"}],"renderers":[{"id":"1037"}],"title":{"id":"1040"},"toolbar":{"id":"1027"},"x_range":{"id":"1004"},"x_scale":{"id":"1008"},"y_range":{"id":"1006"},"y_scale":{"id":"1010"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"source":{"id":"1002"}},"id":"1038","type":"CDSView"},{"attributes":{"axis_label":"Life Expectancy","formatter":{"id":"1042"},"major_label_policy":{"id":"1041"},"ticker":{"id":"1017"}},"id":"1016","type":"LinearAxis"},{"attributes":{},"id":"1025","type":"HelpTool"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"value":15},"x":{"field":"Population"},"y":{"field":"Life_expectancy"}},"id":"1035","type":"Circle"},{"attributes":{},"id":"1006","type":"DataRange1d"},{"attributes":{"axis":{"id":"1012"},"ticker":null},"id":"1015","type":"Grid"},{"attributes":{"active_multi":null,"tools":[{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"}]},"id":"1027","type":"Toolbar"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{},"id":"1021","type":"WheelZoomTool"},{"attributes":{},"id":"1044","type":"AllLabels"},{"attributes":{},"id":"1041","type":"AllLabels"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1048","type":"UnionRenderers"},{"attributes":{"data":{"Area":[652230,1001450,28748,2381741,1246700],"Birthrate":{"__ndarray__":"ZmZmZmYmQ0DNzMzMzEw+QDMzMzMzMypAAAAAAAAAN0DNzMzMzExDQA==","dtype":"float64","order":"little","shape":[5]},"Capital":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[5]},"Coastline":[0,2450,362,998,1600],"Continent":["Asia","Africa","Europe","Africa","Africa"],"Country_English":["Afghanistan","Egypt","Albania","Algeria","Angola"],"Country_German":["Afghanistan","\u00c4gypten","Albanien","Algerien","Angola"],"Country_Local":["Afganistan/Afqanestan","Misr","Shqip\u00ebria","Al-Jaza\u2019ir/Alg\u00e9rie","Angola"],"Currency":["Afghani","Pfund","Lek","Dinar","Kwanza"],"Currency_code":["AFN","EGP","ALL","DZD","AOA"],"Deathrate":{"__ndarray__":"ZmZmZmZmK0DNzMzMzMwSQM3MzMzMzBpAMzMzMzMzEUCamZmZmZkmQA==","dtype":"float64","order":"little","shape":[5]},"Dialing_prefix":[93,20,355,213,244],"Government_form":["Presidential islamic republic","Presidential republic","parliamentary republic","Presidential republic","Presidential republic"],"ISO_3166-1_alpha2":["AF","EG","AL","DZ","AO"],"ISO_3166-1_alpha3":["AFG","EGY","ALB","DZA","AGO"],"Life_expectancy":{"__ndarray__":"ZmZmZmamSUDNzMzMzCxSQDMzMzMzk1NAMzMzMzMzU0AAAAAAAABMQA==","dtype":"float64","order":"little","shape":[5]},"Population":[33332025,94666993,3038594,40263711,20172332],"Url":["https://www.laenderdaten.info/Asien/Afghanistan/index.php","https://www.laenderdaten.info/Afrika/Aegypten/index.php","https://www.laenderdaten.info/Europa/Albanien/index.php","https://www.laenderdaten.info/Afrika/Algerien/index.php","https://www.laenderdaten.info/Afrika/Angola/index.php"],"index":[0,1,2,3,4]},"selected":{"id":"1049"},"selection_policy":{"id":"1048"}},"id":"1002","type":"ColumnDataSource"},{"attributes":{},"id":"1045","type":"BasicTickFormatter"},{"attributes":{},"id":"1004","type":"DataRange1d"},{"attributes":{},"id":"1008","type":"LinearScale"},{"attributes":{},"id":"1049","type":"Selection"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1026","type":"BoxAnnotation"},{"attributes":{"overlay":{"id":"1026"}},"id":"1022","type":"BoxZoomTool"},{"attributes":{"axis_label":"Population","formatter":{"id":"1045"},"major_label_policy":{"id":"1044"},"ticker":{"id":"1013"}},"id":"1012","type":"LinearAxis"},{"attributes":{},"id":"1023","type":"SaveTool"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.3.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1149').textContent;
+                  var render_items = [{"docid":"602f444b-efb7-42cc-a001-14ce46355949","root_ids":["1003"],"roots":{"1003":"a96f4fd6-d522-467b-a3a1-10fd60487f34"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
